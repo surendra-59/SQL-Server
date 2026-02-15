@@ -1,0 +1,2 @@
+create database database1
+use database1
