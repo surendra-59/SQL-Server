@@ -18,4 +18,20 @@ avg(salesamount) AS avg_sales
 from FactInternetSales
 
 -- Total number of rows
-select count(*) from 
+select count(*) from DimProduct
+
+select count(1) from DimProduct
+
+-- count doesnt count null value
+select Listprice from Dimproduct
+
+select count(Listprice) from Dimproduct
+
+--or
+select count(1) from Dimproduct
+where Listprice is Not Null
+
+select count(1) from Dimproduct
+where Listprice is Null
+
+
