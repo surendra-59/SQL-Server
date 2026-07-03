@@ -25,3 +25,14 @@ values(3,'Kerl1',2002-01-01,70000,null)
 
 select * from employees3
 
+
+--if you want to donot pass null then
+CREATE TABLE EMPLOYEES3(
+EmployeeID int primary key,
+EmployeeName varchar(100),
+DOJ datetime,
+Salary float,
+Email varchar(100) unique not null
+)
+
+
