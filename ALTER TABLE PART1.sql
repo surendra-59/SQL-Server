@@ -1,0 +1,25 @@
+SELECT * FROM EMPLOYEES
+
+
+ALTER TABLE EMPLOYEES
+ADD Phone varchar(20), EMAIL varchar(50)
+
+ALTER TABLE EMPLOYEES
+DROP COLUMN Email
+
+
+ALTER TABLE EMPLOYEES
+ADD EmployeeName varchar(20)
+
+
+ALTER TABLE EMPLOYEES
+ALTER COLUMN EmployeeName varchar(200)
+
+
+
+
+
+
+
+
+
